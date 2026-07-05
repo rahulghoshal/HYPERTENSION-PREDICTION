@@ -100,3 +100,6 @@ This tool provides an estimate based on a machine learning model and is **not a 
 GitHub:  
 https://github.com/rahulghoshal
 
+## 🔗 Live Demo
+👉 [Try the app here](https://hypertension-prediction-system.streamlit.app/)
+
