@@ -6,8 +6,21 @@ import joblib
 model = joblib.load('rf_model.pkl')
 scaler = joblib.load('scaler.pkl')
 
-st.title('Hypertension Prediction App')
-st.write('Enter the patient information to predict the likelihood of hypertension and provide your details to record the visit.')
+
+st.set_page_config(
+    page_title="Hypertension Prediction System",
+    page_icon="🩺",
+    layout="wide",
+    initial_sidebar_state="expanded"
+)
+
+st.markdown("""
+# 🩺 Hypertension Prediction System
+
+### AI-powered Early Risk Prediction
+
+This application predicts the likelihood of hypertension using a Machine Learning model.
+""")
 
 # Input fields for visitor's name and email
 visitor_name = st.text_input('Your Name')
