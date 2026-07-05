@@ -127,38 +127,4 @@ if st.button('Predict', key='predict_button_main'):
                 f"Probability: {prediction_proba[0]:.2f}"
             )
 
-        # Optional (debugging)
-        #st.write("Processed Input DataFrame:")
-        #st.dataframe(input_df)
-
-# import mysql.connector
-
-# # Function to save visitor data to MySQL
-# def save_visitor_data(visitor_name, visitor_email, age, prediction):
-#     try:
-#         # Connect to MySQL
-#         conn = mysql.connector.connect(
-#             host="localhost",
-#             user="root",           # For extra security, consider creating an INSERT-only user
-#             password="rahulghoshal",
-#             database="visitor_data"
-#         )
-#         cursor = conn.cursor()
-
-#         sql = """
-#         INSERT INTO visitors (name, email, age, prediction)
-#         VALUES (%s, %s, %s, %s, %s, %s)
-#         """
-#         values = (visitor_name, visitor_email, age, prediction)
-
-#         cursor.execute(sql, values)
-#         # Commit the transaction
-#         conn.commit()
-
-#     except mysql.connector.Error as err:
-#         print(f"Error: {err}")
-
-#     finally:
-#         # Close the connection
-#         cursor.close()
-#         conn.close()
+ 
