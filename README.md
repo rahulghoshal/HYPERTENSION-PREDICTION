@@ -89,3 +89,14 @@ Based on the trained Random Forest:
 ## Disclaimer
 
 This tool provides an estimate based on a machine learning model and is **not a substitute for professional medical advice**. Please consult a healthcare provider for medical concerns.
+
+# 👨‍💻 Author
+
+**Rahul Ghoshal**
+
+- Data Science Enthusiast
+- SQL | Python | Power BI | Machine Learning
+
+GitHub:  
+https://github.com/rahulghoshal
+
